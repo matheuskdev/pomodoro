@@ -2,7 +2,9 @@ from tkinter import messagebox
 
 
 class PomodoroModule:
-    
+    """
+    Gerences module for Pomodoro.
+    """
     def __init__(self) -> None:
         self.tempo_restante = 1500  # 25 minutos em segundos
         self.temporizador_em_execucao = False
